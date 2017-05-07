@@ -1,0 +1,21 @@
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.margin {
+	padding: 15px 10px 0 10px;
+}
+
+.bg-1 { 
+      /*background-color: #090909; /* Black Gray */
+      /*color: #ffffff;*/
+      background-color: #CBE32D; /* Green Shade */
+      margin-top: 40px;
+}
+
+@media only screen and (max-width: 978px) {
+  .margin, .bg-1 {
+    margin: 0;
+    padding: 0;
+  }
+}

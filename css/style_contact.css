@@ -1,0 +1,66 @@
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #A8CD1B;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0,60,0);
+    max-width: 550px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb(0,60,0);
+    color: #fff;
+
+}
+
+img {
+  padding: 20px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+h1 {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.title {
+    color: #A8CD1B;
+    font-size: 18px;
+    font-weight: 700;   
+    font-family: 'Quattrocento Sans', sans-serif; 
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.fa {
+  color: #007bb5; /*linkedin blue*/
+}

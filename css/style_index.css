@@ -1,0 +1,45 @@
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.margin {
+	padding: 20px;
+}
+
+.bg-1 { 
+      /*background-color: #090909; /* Black Gray */
+      /*color: #ffffff;*/
+      background-color: #A8CD1B; /* Green Shade */
+      margin-top: 50px;
+}
+
+.bg-2 { 
+      background-color: rgb(0,60,0);
+}
+
+div h4,
+div h4 a {
+	color: rgb(0,60,0);
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: 700;
+}
+
+div h2 {
+  font-size: 60px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 700;
+  padding-top: 10px;
+  color: #A8CD1B; /* Green Shade */
+}
+
+div p {
+  font-size: 22px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-color: #090909; /* Black Gray */;
+  text-align: justify;
+  padding: 30px;
+  margin: 0 30px 60px 30px;
+  /*color: rgb(230,230,230);*/ /* White Gray */
+  color: #A8CD1B; /* Green Shade */
+}
+
