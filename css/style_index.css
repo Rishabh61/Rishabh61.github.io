@@ -43,3 +43,13 @@ div p {
   color: #A8CD1B; /* Green Shade */
 }
 
+@media only screen and (max-width: 600px) {
+  div p {
+    margin:0;
+    padding: 15px;
+    font-size: 18px
+  }
+  div h2 {
+    font-size: 46px;
+  }
+}
