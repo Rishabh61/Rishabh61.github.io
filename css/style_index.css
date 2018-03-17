@@ -6,20 +6,21 @@ a {
 	padding: 20px;
 }
 
-.bg-1 { 
+.bg-1 {
       /*background-color: #090909; /* Black Gray */
+      background-color: #191919;
       /*color: #ffffff;*/
-      background-color: #A8CD1B; /* Green Shade */
+      /*background-color: #A8CD1B; /* Green Shade */
       margin-top: 50px;
 }
 
-.bg-2 { 
+.bg-2 {
       background-color: rgb(0,60,0);
 }
 
 div h4,
 div h4 a {
-	color: rgb(0,60,0);
+	color: #999999;
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-weight: 700;
 }
