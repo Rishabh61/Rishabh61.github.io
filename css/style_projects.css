@@ -4,43 +4,46 @@ a {
 
 .margin {
 	padding: 20px;
+    /*background-color: rgb(0,60,0);*/
+    background-color: #070707;
 }
 
-.bg-1 { 
+.bg-1 {
       /*background-color: #090909; /* Black Gray */
       /*color: #ffffff;*/
       /*background-color: #F3FAB6; /* Light Green Shade */
-      background-color: #ffffff;
+      /*background-color: #ffffff;*/
       margin-top: 50px;
 }
 
 #h3_top_margin {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 div h3 {
   font-size: 22px;
   font-family: 'Quattrocento', serif;
-  font-weight: bold; 
-  margin: 0 200px 0px 200px;
+  font-weight: bold;
+  color: #A8CD1B;
+  margin: 0 250px 0px 250px;
   padding-top: 30px;
-  color: #000000;
+  padding-bottom: 30px;
+  /*color: #000000;*/
 }
 
 div p {
   font-size: 16px;
   font-family: 'Quattrocento Sans', sans-serif;
   line-height: 30px;
-  background-color: #ffffff;
+  background-color: #000;
   text-align: justify;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin: 0 180px 0 180px;
-  /*color: rgb(230,230,230);*/ /* White Gray 
+  padding: 30px;
+  margin: 0 200px 0 200px;
+  color: rgb(150,150,150);*/ /* White Gray
   color: #393939; /* Black Gray */
 }
 
  .sizeCarousel {
-  width: 64%;
+  width: 50%;
   height: 400px;
   margin: auto;
   margin-bottom: 50px;
@@ -50,6 +53,18 @@ div p {
   width: auto;
   max-height: 400px;
   margin: 0 auto;
+ }
+
+ @media only screen and (max-width: 1300px) {
+   div p, div h3 {
+     margin: 0 10px 0 10px;
+   }
+   .sizeCarousel {
+     width: auto;
+     height: 350px;
+   }
+   .sizeImg {
+   max-height: 350px;
  }
 
 @media only screen and (max-width: 978px) {
@@ -65,6 +80,9 @@ div p {
 }
 
 @media only screen and (max-width: 600px) {
+    div p, div h3 {
+      margin: 0 10px 0 10px;
+    }
   .sizeCarousel {
     width: 100%;
     height: 350px;
@@ -74,6 +92,9 @@ div p {
 }
 
 @media only screen and (min-width: 300px) {
+    div p, div h3 {
+      margin: 0 10px 0 10px;
+    }
   .sizeCarousel {
     width: 100%;
     height: 175px;
