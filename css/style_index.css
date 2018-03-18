@@ -28,7 +28,7 @@ a {
       margin-top: 50px;
 }
 .container-fluid {
-    max-height: 700px;
+    height: auto;
 }
 .b {
     border: none;
@@ -55,7 +55,6 @@ div h4,
 div h4 a {
 	color: rgb(255,255,255);
 	font-family: 'Quattrocento Sans', sans-serif;
-	font-weight: 700;
 }
 
 div h2 {
@@ -95,22 +94,55 @@ div p {
       padding-left: 50px;
       padding-right: 50px;
   }
+  .b {
+      padding: 6px;
+      width: 150px;
+      font-size: 12px;
+  }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 520px) {
   div p {
     margin:0;
-    padding: 25px;
-    font-size: 18px
+    padding: 15px;
+    font-size: 14px
   }
   div h2 {
-    font-size: 46px;
+    font-size: 32px;
   }
   h4 {
       font-size: 12px;
   }
   .margin_bg2 {
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  .b {
+      padding: 6px;
+      width: 90px;
+      font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  div p {
+    margin:0;
+    padding: 15px;
+    font-size: 14px
+  }
+  div h2 {
+    font-size: 32px;
+  }
+  h4 {
+      font-size: 8px;
+  }
+  .margin_bg2 {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .b {
+      padding: 6px;
+      width: 70px;
+      font-size: 10px;
   }
 }
