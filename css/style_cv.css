@@ -6,10 +6,11 @@ a {
 	padding: 15px 10px 0 10px;
 }
 
-.bg-1 { 
+.bg-1 {
       /*background-color: #090909; /* Black Gray */
       /*color: #ffffff;*/
-      background-color: #CBE32D; /* Green Shade */
+      /*background-color: #CBE32D; /* Green Shade */
+      background-color: rgb(0,60,0); /* Green Shade */
       margin-top: 40px;
 }
 
