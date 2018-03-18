@@ -3,14 +3,28 @@ a {
 }
 
 .margin {
-	padding: 20px;
+    padding: 20px;
+}
+
+.margin_bg2 {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .bg-1 {
       /*background-color: #090909; /* Black Gray */
-      background-color: #191919;
+      /*background-color: #191919;*/
+      background-image: url('../image/Background_Image.jpg');
+      background-repeat: no-repeat;
+
       /*color: #ffffff;*/
       /*background-color: #A8CD1B; /* Green Shade */
+      background-position: 50% 0;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
       margin-top: 50px;
 }
 
@@ -20,7 +34,7 @@ a {
 
 div h4,
 div h4 a {
-	color: #999999;
+	color: rgb(255,255,255);
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-weight: 700;
 }
@@ -30,6 +44,7 @@ div h2 {
   font-family: 'Quattrocento Sans', sans-serif;
   font-weight: 700;
   padding-top: 10px;
+  /*color: rgb(0,10,0) /* Dark Green Shade*/
   color: #A8CD1B; /* Green Shade */
 }
 
@@ -40,17 +55,21 @@ div p {
   text-align: justify;
   padding: 30px;
   margin: 0 30px 60px 30px;
-  /*color: rgb(230,230,230);*/ /* White Gray */
-  color: #A8CD1B; /* Green Shade */
+  color: rgb(130,130,130); /* White Gray */
+  /*color: #A8CD1B; /* Green Shade */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   div p {
     margin:0;
-    padding: 15px;
+    padding: 25px;
     font-size: 18px
   }
   div h2 {
     font-size: 46px;
+  }
+  .margin_bg2 {
+      padding-left: 50px;
+      padding-right: 50px;
   }
 }
